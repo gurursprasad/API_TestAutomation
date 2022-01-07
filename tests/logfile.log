@@ -1,0 +1,17 @@
+2022-01-07 08:50:00,106 :INFO : test_throttle_5_per_min :Started running 5 requests
+2022-01-07 08:51:05,204 :INFO : test_throttle_5_per_min :Completed running 5 requests
+2022-01-07 08:51:05,204 :INFO : test_throttle_5_per_min :Waiting for 60 sec...
+2022-01-07 08:51:05,219 :INFO : test_throttle_6_for_2_min :Started running 5 requests
+2022-01-07 08:52:10,890 :INFO : test_throttle_6_for_2_min :Completed running 5 requests
+2022-01-07 08:52:10,890 :INFO : test_throttle_6_for_2_min :Waiting for 60 sec...
+2022-01-07 08:52:12,242 :INFO : test_throttle_6_for_2_min :6th request executed in the next minute with status code '200'
+2022-01-07 08:52:12,242 :INFO : test_throttle_6_for_2_min :6 requests executed in 2 minutes
+2022-01-07 08:52:12,242 :INFO : test_throttle_6_for_2_min :Waiting for 60 sec...
+2022-01-07 08:53:12,270 :INFO : test_throttle_6_per_min :Started running 5 requests
+2022-01-07 08:53:17,895 :INFO : test_throttle_6_per_min :Completed running 5 requests
+2022-01-07 08:53:18,830 :INFO : test_throttle_6_per_min :Next Request took 0.57146 ms with status code '200'
+2022-01-07 08:53:19,238 :INFO : test_throttle_500_per_day :Started running 500 requests
+2022-01-07 10:29:12,597 :INFO : test_throttle_501_per_day :Started running 500 requests
+2022-01-07 12:09:08,817 :INFO : test_throttle_500_per_day_for_different_user :Started running 500 requests
+2022-01-07 12:09:09,192 :INFO : test_optional_params1 :Started running 5 requests
+2022-01-07 12:09:09,454 :INFO : test_optional_params2 :Started running 5 requests
