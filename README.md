@@ -16,6 +16,9 @@ To ensure all dependencies are resolved in a CI environment, in one go, add them
 * The tests are located in the `API_TestAutomation\tests` directory. Go to this directory
 * Use `py.test --endpoint=<endpoint IP> --html=reports.html` to run all tests
 * Use `py.test --endpoint=<endpoint IP> --html=reports.html -m <markname> -v -s` to run specific tests.
+* The log file will get created inside `API_TestAutomation\tests` directory as `logfile.log`
+* After the test run completes the html report gets generated inside `API_TestAutomation\tests` directory as `reports.html`
+
 
 ## Custom Marks used:
 * `@pytest.mark.TestThrottleLimit`. This mark is to run throttling limt related scenarios. Use `py.test --endpoint=<endpoint IP> --html=reports.html -m TestThrottleLimit -v -s` to run these test scripts.
